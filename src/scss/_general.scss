@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "Lobster";
+    src: url(../Fonts/The-Lobster-Font/fonts/TTF/Lobster.ttf);
+};
+
+@font-face {
+    font-family: "Boogaloo";
+    src: url(../Fonts/boogaloo/Boogaloo-Regular.ttf);
+}
+
+
+@mixin font($fontFamily, $fontSize, $fontWeight, $lineHeight, $color){
+    font-family: $fontFamily, sans-serif;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+    color: $color;
+  };
+
+
